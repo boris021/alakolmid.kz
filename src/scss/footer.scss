@@ -1,3 +1,19 @@
 //====================================================================================================
+.footer {
+	background: #000348;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__container {}
+
+	&__text {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: math.div(17, 14);
+		color: white;
+	}
+}
 
 //====================================================================================================
