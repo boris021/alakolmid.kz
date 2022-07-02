@@ -888,26 +888,26 @@ h6 {
 }
 
 @supports (padding-top: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem )) {
-  .galery {
+  .gallery {
     padding-top: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem );
   }
 }
 
 @supports not (padding-top: clamp( 1.875rem , 0.9659090909rem  +  4.5454545455vw , 4.375rem )) {
-  .galery {
+  .gallery {
     padding-top: calc(1.875rem + 2.5 * (100vw - 20rem) / 55);
   }
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem )) {
-  .galery {
-    padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem );
+@supports (padding-bottom: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem )) {
+  .gallery {
+    padding-bottom: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem )) {
-  .galery {
-    padding-bottom: calc(1.875rem + 5.625 * (100vw - 20rem) / 55);
+@supports not (padding-bottom: clamp( 1.875rem , 1.1931818182rem  +  3.4090909091vw , 3.75rem )) {
+  .gallery {
+    padding-bottom: calc(1.875rem + 1.875 * (100vw - 20rem) / 55);
   }
 }
 
@@ -1064,19 +1064,19 @@ h6 {
   left: 0;
 }
 
-@supports (padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem )) {
+@supports (margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  5.6818181818vw , 5rem )) {
   .video {
-    padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem );
+    margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  5.6818181818vw , 5rem );
   }
 }
 
-@supports not (padding-bottom: clamp( 1.875rem , -0.1704545455rem  +  10.2272727273vw , 7.5rem )) {
+@supports not (margin-bottom: clamp( 1.875rem , 0.7386363636rem  +  5.6818181818vw , 5rem )) {
   .video {
-    padding-bottom: calc(1.875rem + 5.625 * (100vw - 20rem) / 55);
+    margin-bottom: calc(1.875rem + 3.125 * (100vw - 20rem) / 55);
   }
 }
 
-.galery__video {
+.gallery__video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1089,16 +1089,13 @@ h6 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 30px;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
 }
 
-.galery__video-box {
+.gallery__video-box {
   width: 45%;
 }
 
-.galery__video-box img {
+.gallery__video-box img {
   width: 100%;
 }
 
@@ -1863,7 +1860,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     width: 100%;
   }
 
-  .galery__video-box {
+  .gallery__video-box {
     width: 100%;
   }
 }
