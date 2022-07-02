@@ -1076,6 +1076,10 @@ h6 {
   }
 }
 
+.video-vd {
+  max-height: 350px;
+}
+
 .gallery__video {
   display: -webkit-box;
   display: -ms-flexbox;
